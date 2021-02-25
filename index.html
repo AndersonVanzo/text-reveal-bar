@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Text Reveal Bar</title>
+</head>
+<body>
+  <div class="before"></div>
+  <div class="main">
+    <div class="content">
+      <h1>Text Reveal</h1><br>
+      <h2>With JS and CSS</h2>
+    </div>
+  </div>
+
+  <script src="scroll-out.min.js"></script>
+  <script>
+    ScrollOut({
+      targets: 'h1, h2'
+    });
+  </script>
+</body>
+</html>
